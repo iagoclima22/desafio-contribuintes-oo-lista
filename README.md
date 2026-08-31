@@ -80,7 +80,7 @@ Imposto devido: 41977.74
 
 ## Como executar
 
-Pré-requisito: JDK 8 ou superior (desenvolvido e testado no JDK 17).
+Pré-requisito: JDK 8 ou superior (desenvolvido e testado no JDK 21).
 
 ```bash
 git clone https://github.com/iagoclima22/desafio-contribuintes-oo-lista.git
