@@ -59,9 +59,10 @@ public class TaxPayer {
     }
 
     public double salaryTax() {
-        if (salaryIncome < 3000.00) {
+        double salary = salaryIncome / 12.00;
+        if (salary < 3000.00) {
             return 0;
-        } else if (salaryIncome < 5000.00) {
+        } else if (salary < 5000.00) {
             return salaryIncome * 0.10;
         } else {
             return salaryIncome * 0.20;
